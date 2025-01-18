@@ -18,7 +18,7 @@ class Tree extends Model
         array('id'=>8, 'parent_id'=>6, 'title' =>'8'),
     );
 
-
+    // testing commit
    public function buildTree(array $elements, $parentId = 0) {
         $branch = array();
 
